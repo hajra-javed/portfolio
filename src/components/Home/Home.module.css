@@ -1,0 +1,42 @@
+
+.home{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #fae7fa; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    gap: 4em;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+
+}
+
+.heroMain{
+    font-family: 'Poiret One', cursive;
+    font-size: 9rem;
+}
+
+.heroDetail{
+font-size: 1.25rem;
+}
+
+img{
+    width: 39vh;
+    height: 39vh;
+    /* background-color: transparent; */
+    border-radius: 50%;
+    /* width: min-content; */
+    object-fit: none;
+    outline: solid 3px;
+}

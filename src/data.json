@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Etch-a-Sketch",
+        "link": "/etch-a-sketch",
+        "id": 1
+    },
+    {
+        "name": "Calculator",
+        "link": "/calculator",
+        "id": 2
+    },
+    {
+        "name": "Signup Form",
+        "link": "/signup-form",
+        "id": 3
+    },
+    {
+        "name": "Admin Dashboard",
+        "link": "/admin-dashboard",
+        "id": 4
+    },
+    {
+        "name": "Library",
+        "link": "/library",
+        "id": 5
+    },
+    {
+        "name": "Tic-Tac-Toe",
+        "link": "/tic-tac-toe",
+        "id": 6
+    },
+    {
+        "name": "Restaurant",
+        "link": "/restaurant",
+        "id": 7
+    },
+    {
+        "name": "To-Do List",
+        "link": "/todo-list",
+        "id": 8
+    },
+    {
+        "name": "CV-Maker",
+        "link": "/cv-project",
+        "id": 9
+    },
+    {
+        "name": "Memory Card Game",
+        "link": "/memory-card-game",
+        "id": 10
+    },
+    {
+        "name": "Shopping Cart",
+        "link": "/shopping-cart",
+        "id": 11
+    }
+    
+]

@@ -1,0 +1,19 @@
+.logo{
+    justify-content: center;
+    flex-direction: column;
+    width: 15vmin;
+    height: 15vmin;
+    display: flex;
+    border: solid 2px;
+    font-family: "Red Hat Mono", monospace;
+    box-shadow: 8px 8px 0px black;
+}
+
+.first, .last{
+    font-size: 3rem;
+    padding: 0 0.5em;
+}
+
+.last{
+    text-align: right;
+}

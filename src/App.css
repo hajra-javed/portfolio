@@ -3,7 +3,7 @@ body{
     padding: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #fae7fa;
+    background-color: #fcf5fc;
     font-family: 'Red Hat Mono', monospace;
 }
 
@@ -13,4 +13,11 @@ body{
     flex-direction: column;
     width: 100%;
     height: 100%;
+}
+
+main{
+    margin-top: 5em;
+    width: 100%;
+    height: 100%;
+    flex: 1;
 }

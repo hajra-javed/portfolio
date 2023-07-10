@@ -1,7 +1,6 @@
-
-.home{
-    height: 100vh;
-    width: 100vw;
+.home {
+    height: 100%;
+    width: 100%;
     /* background-color: #fae7fa; */
     display: flex;
     flex-direction: column;
@@ -9,12 +8,12 @@
     align-items: center;
 }
 
-.container{
+.container {
     display: flex;
     gap: 4em;
 }
 
-.hero{
+.hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,16 +21,36 @@
 
 }
 
-.heroMain{
+.heroMain {
     font-family: 'Poiret One', cursive;
     font-size: 9rem;
+    text-shadow: 5px 0px lightpink;
 }
 
-.heroDetail{
-font-size: 1.25rem;
+.heroDetail {
+    font-size: 1.25rem;
+    background-color: darkgray;
+    color: white;
+    position: relative;
+    width: fit-content;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: 1px 1px 7px black;
 }
 
-img{
+.heroDetail:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 16%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-bottom-color: darkgray;
+    margin-bottom: 3em;
+}
+
+.home img {
     width: 39vh;
     height: 39vh;
     /* background-color: transparent; */

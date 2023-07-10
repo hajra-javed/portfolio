@@ -1,0 +1,11 @@
+.about{
+    padding: 0 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.about span{
+    font-style: italic;
+}

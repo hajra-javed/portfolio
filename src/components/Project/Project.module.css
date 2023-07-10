@@ -1,0 +1,78 @@
+.project{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.project:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.project img{
+    height: 50vh;
+    outline: solid 2px black;
+    box-shadow: 10px 10px 0 grey;
+}
+
+.description{
+    /* display: flex;
+    flex-direction: column; */
+    padding: 2em;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    box-shadow: 4px 3px 15px 0px black;
+}
+
+.project:nth-child(odd) > .details{
+    translate: -5em;
+}
+
+.project:nth-child(odd) .description, .project:nth-child(odd) .name{
+    text-align: right;
+}
+
+.project:nth-child(even) > .details{
+    translate: 5em;
+}
+
+.details a{
+    text-decoration: none;
+}
+
+.name{
+    font-family: monospace;
+    font-weight: 900;
+}
+
+.name a:hover{
+    color: grey;
+}
+
+
+.openLink a:hover{
+    color: rgb(185, 92, 185);
+}
+
+.details a{
+    color: black;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.details .links{
+    display: flex;
+}
+
+.project:nth-child(odd) > .details > .links{
+    justify-content: right;
+}
+
+.project:nth-child(even) > .details > .links{
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+
+.project svg:hover {
+    fill: grey;
+}

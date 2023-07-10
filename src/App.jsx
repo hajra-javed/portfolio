@@ -1,18 +1,21 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// import Projects from './components/Projects/Projects';
-// import 
-// import Home from './components/Home/Home';
+import Projects from './components/Projects/Projects';
 import Nav from './components/Nav/Nav';
 import Home from './components/Home/Home';
+import About from './components/About/About';
 
 function App() {
   return (
     <BrowserRouter>
-    <Nav></Nav>
-    <Routes>
-        <Route path='/' element={<Home />} />
-      </Routes>
+      <Nav></Nav>
+      <main>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/portfolio' element={<Projects />} />
+        </Routes>
+      </main>
     </BrowserRouter>
   );
 }

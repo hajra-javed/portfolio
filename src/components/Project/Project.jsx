@@ -1,11 +1,32 @@
 import style from './Project.module.css';
+import { ReactComponent as GithubMark } from '../../assets/github.svg';
+import { ReactComponent as OpenLink } from '../../assets/open.svg';
 
-function Project(props){
-    return(
+function Project(props) {
+    return (
         <div className={style.project}>
-            <div className={style.name}>{props.name}</div>
-            <a href={`hajra-javed.github.io${props.link}`}>View live</a>
-            <a href={`github.com/hajra-javed${props.link}`}>View code</a>
+            <img src={require("../../assets/" + props.filename)} alt="" />
+            <div className={style.details}>
+                <h2 className={style.name}>
+                    <a href={`https://hajra-javed.github.io${props.link}`}>
+                        {props.name}
+                    </a>
+                </h2>
+                <div className={style.description}>{props.description}</div>
+
+                <div className={style.links}>
+                    <span>
+                        <a href={`https://github.com/hajra-javed${props.link}`}>
+                            <GithubMark />
+                        </a>
+                    </span>
+                    <span className={style.openLink}>
+                        <a href={`https://hajra-javed.github.io${props.link}`}>
+                            <OpenLink />
+                        </a>
+                    </span>
+                </div>
+            </div>
         </div>
 
     )

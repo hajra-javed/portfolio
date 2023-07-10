@@ -2,57 +2,79 @@
     {
         "name": "Etch-a-Sketch",
         "link": "/etch-a-sketch",
-        "id": 1
+        "filename": "etch-a-sketch.png",
+        "id": 1,
+        "description": "Play this game by hovering over the grid. A random color will be generated on each square as you pass over it for the first time. For every next 9 passes, 10% of black is added to the square, finally ending up in a black square. The resize button can be cliked to change the grid size."
     },
     {
         "name": "Calculator",
         "link": "/calculator",
-        "id": 2
+        "filename": "calculator.png",
+        "id": 2,
+        "description": "Calculator created with HTML, CSS and Vanilla JS."
     },
     {
         "name": "Signup Form",
         "link": "/signup-form",
-        "id": 3
+        "filename": "signup form.png",
+        "id": 3,
+        "description": "A simlpe sign-up form that features HTML's in-built form validation, as awell as javascript form validation."
     },
     {
         "name": "Admin Dashboard",
         "link": "/admin-dashboard",
-        "id": 4
+        "filename": "admin dashboard.png",
+        "id": 4,
+        "description": "This dashboard is basically a display of css stylinng using grids and flexboxes."
     },
     {
         "name": "Library",
         "link": "/library",
-        "id": 5
+        "filename": "library.png",
+        "id": 5,
+        "description": "You can add and delete books in this library as well as edit their read status."
     },
     {
         "name": "Tic-Tac-Toe",
         "link": "/tic-tac-toe",
-        "id": 6
+        "filename": "tic-tac-toe.png",
+        "id": 6,
+        "description": "Vanilla JS Tic Tac Toe project"
     },
     {
         "name": "Restaurant",
         "link": "/restaurant",
-        "id": 7
-    },
-    {
-        "name": "To-Do List",
-        "link": "/todo-list",
-        "id": 8
-    },
-    {
-        "name": "CV-Maker",
-        "link": "/cv-project",
-        "id": 9
+        "filename": "restaurant.png",
+        "id": 7,
+        "description": "A simple Vanilla JS proejct, bundled using webpack."
     },
     {
         "name": "Memory Card Game",
         "link": "/memory-card-game",
-        "id": 10
+        "filename": "memory game.png",
+        "id": 10,
+        "description": "A React based web app which simluates a memory game: Get points for choosing a card, but don't choose the same card twice!"
+    },
+    {
+        "name": "To-Do List",
+        "link": "/todo-list",
+        "filename": "todo list.png",
+        "id": 8,
+        "description": "a seemingly simple but quite a complex app made in pure Vanilla Jacascript."
+    },
+    {
+        "name": "CV-Maker",
+        "link": "/cv-project",
+        "filename": "cv maker.png",
+        "id": 9,
+        "description": "Build a simple and minimalistic resume with this React app, which uses only class components."
     },
     {
         "name": "Shopping Cart",
         "link": "/shopping-cart",
-        "id": 11
+        "filename": "shopping cart.png",
+        "id": 11,
+        "description":  "A react app that lets you add items to cart. Each item has an increment/decrement button as well.The app uses react routing to implement browsing across different tabs."
     }
     
 ]

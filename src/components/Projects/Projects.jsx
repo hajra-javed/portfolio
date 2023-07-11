@@ -1,6 +1,7 @@
 import style from './Projects.module.css';
 import Project from '../Project/Project';
 import rawData from '../../data.json';
+import uniqid from 'uniqid';
 
 function Projects() {
     const data = JSON.parse(JSON.stringify(rawData));
@@ -14,8 +15,9 @@ function Projects() {
                         name={p.name}
                         filename={p.filename}
                         description={p.description}
+                        skills={p.skills}
                         link={p.link}
-                        key={p.id}
+                        key={uniqid()}
                     />)
                 }
             </div>

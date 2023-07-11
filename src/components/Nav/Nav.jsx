@@ -14,7 +14,6 @@ function Nav() {
                 <ul>
                     <li className={`${style.navItem}`}><Link to='/about' >About</Link></li>
                     <li className={`${style.navItem}`}><Link to='/portfolio' >Portfolio</Link></li>
-                    <li className={`${style.navItem}`}><Link to='/skills' >Skills</Link></li>
                     <li className={`${style.navItem}`}><Link to='/contact' >Contact</Link></li>
                 </ul>
             </nav>

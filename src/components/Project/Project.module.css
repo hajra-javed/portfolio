@@ -24,6 +24,20 @@
     box-shadow: 4px 3px 15px 0px black;
 }
 
+.skills{
+    display: flex;
+    gap: 2em;
+    margin-top: 1em;
+}
+
+.project:nth-child(odd) .skills{
+    justify-content: right;
+}
+
+.skill{
+    padding: 0 .5em;
+}
+
 .project:nth-child(odd) > .details{
     translate: -5em;
 }

@@ -69,7 +69,7 @@
         "filename": "todo list.png",
         "id": 8,
         "skills": ["HTML", "CSS", "VanillaJS", "Webpack"],
-        "description": "a seemingly simple but quite a complex app made in pure Vanilla Jacascript."
+        "description": "A seemingly simple but quite a complex app made in pure Vanilla Jacascript, which uses local storage to save data."
     },
     {
         "name": "CV-Maker",

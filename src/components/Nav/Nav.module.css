@@ -8,7 +8,7 @@ nav{
     z-index: 1;
 }
 
-ul{
+nav ul{
     list-style: none;
     display: flex;
     gap: 4em;
@@ -50,4 +50,43 @@ nav li > a{
 
 nav li > a:hover{
     font-size: 2em;
+}
+
+.links{
+    bottom: 20vh;
+    right: 0;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    gap: 1em;
+    padding: 0;
+    margin: 0 1em;
+    z-index: 2;
+}
+
+.links ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    gap: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+.links svg:hover {
+    fill: grey;
+    translate: 0 -5px;
+}
+
+.links::after{
+    top: 7em;
+    left: 50%;
+    height: 20em;
+    content: '';
+    border: solid 1px black;
+    position: absolute;
 }

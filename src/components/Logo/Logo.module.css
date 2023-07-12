@@ -9,6 +9,10 @@
     box-shadow: 8px 8px 0px black;
 }
 
+.logo:hover{
+    box-shadow: none;
+}
+
 .first, .last{
     font-size: 2rem;
     padding: 0 0.5em;

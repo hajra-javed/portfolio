@@ -1,10 +1,11 @@
 .portfolio{
     padding: 0 5em;
+    margin-top: 10em;
     
 }
 
 .portfolio h1{
-    text-align: center;
+    /* text-align: center; */
     /* margin-top: 0; */
     margin-bottom: 2em;
 }

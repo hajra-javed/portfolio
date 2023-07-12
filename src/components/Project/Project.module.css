@@ -11,10 +11,13 @@
 
 .project img{
     height: 50vh;
-    outline: solid 2px black;
+    outline: solid 2px thistle;
     box-shadow: 10px 10px 0 grey;
 }
 
+.project img:hover{
+    outline: solid 2px black;
+}
 .description{
     /* display: flex;
     flex-direction: column; */
@@ -22,6 +25,10 @@
     background-color: antiquewhite;
     border-radius: 5px;
     box-shadow: 4px 3px 15px 0px black;
+}
+
+.description:hover{
+    background-color: thistle;
 }
 
 .skills{

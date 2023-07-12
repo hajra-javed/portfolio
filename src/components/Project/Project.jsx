@@ -6,16 +6,16 @@ import uniqid from 'uniqid';
 function Project(props) {
     return (
         <div className={style.project}>
-            <a href={`https://hajra-javed.github.io${props.link}`}>
+            <a href={`https://hajra-javed.github.io${props.link}`} target="_blank">
                 <img src={require("../../assets/" + props.filename)} alt="" />
             </a>
             <div className={style.details}>
                 <h2 className={style.name}>
-                    <a href={`https://hajra-javed.github.io${props.link}`}>
+                    <a href={`https://hajra-javed.github.io${props.link}`} target="_blank">
                         {props.name}
                     </a>
                 </h2>
-                <a href={`https://hajra-javed.github.io${props.link}`}>
+                <a href={`https://hajra-javed.github.io${props.link}`} target="_blank">
                     <div className={style.description}>{props.description}</div>
                 </a>
                 <div className={style.skills}>

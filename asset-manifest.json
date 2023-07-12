@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b6e35ddf.css",
+    "main.js": "/portfolio/static/js/main.85354a3e.js",
+    "static/media/memory game.png": "/portfolio/static/media/memory game.925f66678d1c92815692.png",
+    "static/media/restaurant.png": "/portfolio/static/media/restaurant.6eb572dd5c1ea0e1f75c.png",
+    "static/media/shopping cart.png": "/portfolio/static/media/shopping cart.80da0dc8b8aa814d290e.png",
+    "static/media/signup form.png": "/portfolio/static/media/signup form.ecba83da206673f4e949.png",
+    "static/media/admin dashboard.png": "/portfolio/static/media/admin dashboard.8c235f22553bf2fba827.png",
+    "static/media/todo list.png": "/portfolio/static/media/todo list.051b6cb3918d6343c174.png",
+    "static/media/cv maker.png": "/portfolio/static/media/cv maker.9dab6922a9db73cc0176.png",
+    "static/media/etch-a-sketch.png": "/portfolio/static/media/etch-a-sketch.275f7b9f5ce106f570bd.png",
+    "static/media/tic-tac-toe.png": "/portfolio/static/media/tic-tac-toe.026aa0c8955dafa4ff91.png",
+    "static/media/calculator.png": "/portfolio/static/media/calculator.728c86839a3efe6cc4c2.png",
+    "static/media/picture.png": "/portfolio/static/media/picture.8380c6ced8e607b03349.png",
+    "static/media/library.png": "/portfolio/static/media/library.9a3af3867de930537197.png",
+    "static/media/github.svg": "/portfolio/static/media/github.e7e2bc8e3b94958f09a23ee8a5aaae7a.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.d35cb3ceaded38a478c4284e7d1d6249.svg",
+    "static/media/open.svg": "/portfolio/static/media/open.dcdb1b2d58ab41b7474fd618a011a7e8.svg",
+    "main.b6e35ddf.css.map": "/portfolio/static/css/main.b6e35ddf.css.map",
+    "main.85354a3e.js.map": "/portfolio/static/js/main.85354a3e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6e35ddf.css",
+    "static/js/main.85354a3e.js"
+  ]
+}

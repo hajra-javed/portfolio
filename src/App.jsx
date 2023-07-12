@@ -12,10 +12,10 @@ function App() {
       <Nav></Nav>
       <main>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/portfolio' element={<Projects />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route path='/portfolio' element={<Home />} />
+          <Route path='/portfolio/about' element={<About />} />
+          <Route path='/portfolio/portfolio' element={<Projects />} />
+          <Route path='/portfolio/contact' element={<Contact />} />
         </Routes>
       </main>
     </BrowserRouter>

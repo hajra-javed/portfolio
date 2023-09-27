@@ -85,7 +85,7 @@
         "filename": "shopping cart.png",
         "id": 11,
         "skills": ["HTML", "CSS", "ReactJS"],
-        "description":  "A react app that lets you add items to cart. Each item has an increment/decrement button as well.The app uses react routing to implement browsing across different tabs."
+        "description":  "A react + redux app that lets you add items to cart. Each item has an increment/decrement button as well.The app uses react routing to implement browsing across different tabs."
     }
     
 ]

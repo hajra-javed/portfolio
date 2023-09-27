@@ -22,7 +22,7 @@
 }
 
 .heroMain {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Poiret One', monospace;
     font-size: 9rem;
     text-shadow: 5px 0px lightpink;
 }
@@ -32,7 +32,7 @@
     background-color: darkgray;
     color: white;
     position: relative;
-    width: fit-content;
+    width: 25em;
     padding: 1em;
     border-radius: 1em;
     box-shadow: 1px 1px 7px black;
@@ -42,7 +42,7 @@
     content: '';
     position: absolute;
     bottom: 0;
-    left: 16%;
+    left: 100px;
     width: 0;
     height: 0;
     border: 20px solid transparent;

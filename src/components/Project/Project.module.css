@@ -3,6 +3,13 @@
     gap: 2em;
     justify-content: center;
     align-items: center;
+
+    position: relative;
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    /* transform: rotateX(-40deg); */
+    /* transform-origin: 0 0; */
 }
 
 .project:nth-child(even){

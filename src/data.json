@@ -81,7 +81,7 @@
     },
     {
         "name": "Shopping Cart",
-        "link": "/shopping-cart",
+        "link": "/shopping-cart-redux",
         "filename": "shopping cart.png",
         "id": 11,
         "skills": ["HTML", "CSS", "ReactJS"],
